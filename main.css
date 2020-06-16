@@ -597,14 +597,13 @@ footer .first-list {
 
 footer .first-list li {
   line-height: 40px;
-  list-style: none;
+  margin: 0 15px;
 }
 
 footer .first-list li a {
   font-size: 1.5rem;
   text-decoration: underline;
   color: white;
-  padding: 15px;
 }
 
 footer p {
