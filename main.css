@@ -23,9 +23,9 @@ nav a {
 }
 
 nav a img {
-  width: 250px;
-  height: 150px;
-  margin: -12% 2%;
+  width: 200px;
+  height: 200px;
+  margin: -25% 10%;
 }
 
 nav ul {
@@ -52,7 +52,8 @@ nav ul li a {
   color: white;
 }
 
-.article-footer a {
+.article-footer a,
+.second-class li a {
   color: white;
 }
 
@@ -77,12 +78,8 @@ nav ul li a {
 }
 
 .grid-5 p a {
-  color: rgb(44, 135, 165);
+  color: rgb(77, 77, 77);
   text-decoration: underline;
-}
-
-.second-class li a {
-  color: white;
 }
 
 footer .first-list li a {
@@ -102,7 +99,7 @@ nav ul li a:hover {
 }
 
 .article-1 a:hover {
-  color: red;
+  color: gray;
 }
 
 nav ul li button {
@@ -119,7 +116,7 @@ nav ul li button {
 }
 
 .container-article button {
-  color: rgb(44, 135, 165);
+  color: rgb(75, 75, 75);
   background-color: white;
   border: 0;
   border-radius: 10px;
@@ -228,7 +225,7 @@ footer p {
 }
 
 .container-article-2 button {
-  color: rgb(44, 135, 165);
+  color: rgb(77, 77, 77);
   background-color: white;
   border: 0;
   border-radius: 10px;
@@ -277,7 +274,7 @@ footer p {
 }
 
 .grid-5 h1:hover {
-  color: red;
+  color: gray;
   cursor: pointer;
 }
 
@@ -285,14 +282,10 @@ nav ul li button:hover {
   background-color: #666;
 }
 
+.container-article,
 .container-article-2 button:hover {
-  color: red;
   cursor: pointer;
-}
-
-.container-article button:hover {
-  cursor: pointer;
-  color: red;
+  color: gray;
 }
 
 nav input {
@@ -431,7 +424,7 @@ nav input::placeholder {
   margin: 10% 0 10% 10%;
   width: 85%;
   height: 75%;
-  border: 4px solid red;
+  border: 4px solid gray;
   border-radius: 5px;
 }
 
@@ -440,7 +433,7 @@ nav input::placeholder {
   height: 700px;
   margin: 0;
   padding: 0;
-  background-color: rgb(45, 103, 151);
+  background-image: radial-gradient(#666, #333);
 }
 
 .container-article {
@@ -468,7 +461,7 @@ nav input::placeholder {
 
 .grid-4 p span {
   text-decoration: underline;
-  color: rgb(44, 135, 165);
+  color: rgb(63, 63, 63);
   cursor: pointer;
 }
 
@@ -479,7 +472,8 @@ nav input::placeholder {
   grid-row-gap: 150px;
 }
 
-.article-header-2 {
+.article-header-2,
+.second-class {
   display: flex;
 }
 
@@ -500,7 +494,7 @@ nav input::placeholder {
   height: auto;
   margin: 10% 0 0 0;
   padding: 0;
-  background-color: #d33a2c;
+  background-image: radial-gradient(#666, #333);
   display: flex;
 }
 
@@ -531,36 +525,24 @@ nav input::placeholder {
   border-radius: 10px;
 }
 
-.js {
-  color: #19a972;
-}
-
+.js,
 .css {
-  color: #ff5a00;
+  color: #333;
 }
 
-.web {
-  color: #aa1994;
-}
-
+.web,
 .email {
-  color: #0168b8;
+  color: #666;
 }
 
-.js-btn {
-  background-color: #19a972;
-}
-
+.js-btn,
 .css-btn {
-  background-color: #ff5a00;
+  background-color: #333;
 }
 
-.web-btn {
-  background-color: #aa1994;
-}
-
+.web-btn,
 .email-btn {
-  background-color: #0168b8;
+  background-color: #666;
 }
 
 .high-article {
@@ -573,8 +555,7 @@ nav input::placeholder {
 }
 
 .article-flex input {
-  float: left;
-  padding: 5px 80px;
+  padding: 5px 55px;
   border-radius: 5px;
   margin: 5% 0;
   border: 0;
@@ -589,7 +570,7 @@ nav input::placeholder {
 }
 
 .article-end {
-  background-color: #2b8cd6;
+  background-image: radial-gradient(#666, #333);
   text-align: center;
   width: 70%;
   margin: 5% auto;
@@ -601,7 +582,7 @@ nav input::placeholder {
 }
 
 footer {
-  background-color: #d33a2c;
+  background-image: radial-gradient(#666, #333);
   font-family: "Times New Roman", Times, serif;
 }
 
@@ -627,8 +608,4 @@ footer .first-list {
 footer .first-list li {
   line-height: 40px;
   margin: 0 15px;
-}
-
-.second-class {
-  display: flex;
 }
