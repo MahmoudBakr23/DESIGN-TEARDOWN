@@ -238,6 +238,27 @@ footer p {
   margin: 0 0 5% 5%;
 }
 
+.article-header h5 {
+  margin-top: 2%;
+  font-size: 1.2em;
+}
+
+.article-body p {
+  width: 80%;
+  font-size: 3em;
+  line-height: 50px;
+  text-transform: capitalize;
+  margin-right: 0;
+}
+
+.container-article-2 p {
+  font-size: 1.2em;
+  width: 80%;
+  margin: 2% 5%;
+  line-height: 40px;
+  font-family: "Times New Roman", Times, serif;
+}
+
 .grid-6 article,
 .grid-6 article h5,
 .grid-6 article h1,
@@ -352,11 +373,6 @@ nav input::placeholder {
   margin-left: 10%;
 }
 
-.article-header h5 {
-  margin-top: 2%;
-  font-size: 1.2em;
-}
-
 .img-box {
   width: 70px;
   height: 70px;
@@ -370,14 +386,6 @@ nav input::placeholder {
   margin-bottom: 20%;
   margin-left: 10%;
   margin-top: -5%;
-}
-
-.article-body p {
-  width: 80%;
-  font-size: 3em;
-  line-height: 50px;
-  text-transform: capitalize;
-  margin-right: 0;
 }
 
 .article-footer {
@@ -498,14 +506,6 @@ nav input::placeholder {
 
 .container-article-2 {
   color: white;
-}
-
-.container-article-2 p {
-  font-size: 1.2em;
-  width: 80%;
-  margin: 2% 5%;
-  line-height: 40px;
-  font-family: "Times New Roman", Times, serif;
 }
 
 .box-img-lg {
