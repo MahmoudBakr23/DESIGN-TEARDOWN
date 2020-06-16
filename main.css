@@ -1,0 +1,198 @@
+* {
+  box-sizing: border-box;
+}
+
+body {
+  margin: 0;
+  padding: 0;
+}
+
+nav {
+  display: flex;
+  justify-content: space-between;
+  font-family: 'Baloo Paaji 2', cursive;
+  background-color: rgb(88, 88, 88);
+}
+
+nav a {
+  margin: 0;
+  padding: 0;
+  width: 250px;
+  height: 50px;
+}
+
+nav a img {
+  width: 250px;
+  height: 150px;
+  margin: -12% 2%;
+}
+
+nav ul {
+  width: 100%;
+  list-style: none;
+  display: flex;
+  margin-top: 2.2%;
+}
+
+nav ul li {
+  margin: 0 1%;
+}
+
+nav ul li a {
+  text-decoration: none;
+  font-size: 1.3em;
+  color: white;
+  font-weight: bold;
+  padding: 10px;
+}
+
+nav ul li a:hover {
+  background-color: #777;
+  border-radius: 10px;
+}
+
+nav ul li button {
+  margin-top: -7px;
+  padding: 8px 30px;
+  border-radius: 10px;
+  border: none;
+  color: white;
+  background-color: #333;
+  cursor: pointer;
+  font-size: 1.2em;
+  font-weight: bold;
+  font-family: 'Baloo Paaji 2', cursive;
+}
+
+nav ul li button:hover {
+  background-color: #666;
+}
+
+nav input {
+  padding: 20px 80px;
+  margin: 1.5% 3%;
+  border-radius: 10px;
+  border: 0;
+}
+
+nav input::placeholder {
+  font-size: 1.6em;
+  color: #777;
+  font-family: 'Baloo Paaji 2', cursive;
+  font-weight: bold;
+}
+
+.absolute {
+  position: absolute;
+  top: 15%;
+  left: 33%;
+  width: 35%;
+  text-align: center;
+  font-family: 'Baloo Paaji 2', cursive;
+  color: black;
+}
+
+.absolute h4 {
+  font-size: 2.5em;
+  line-height: 55px;
+}
+
+.absolute h4 span {
+  background-color: white;
+}
+
+.grid {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  grid-template-rows: minmax(70px, auto);
+  margin: 0;
+}
+
+.grid article {
+  font-family: 'Baloo Paaji 2', cursive;
+  font-weight: bold;
+  color: white;
+}
+
+.first-article {
+  background-color: #777;
+}
+
+.second-article {
+  background-color: #666;
+}
+
+.third-article {
+  background-color: #555;
+}
+
+.fourth-article {
+  background-color: #777;
+}
+
+
+.article-header {
+  display: flex;
+  margin-top: 35%;
+  margin-left: 10%;
+}
+
+.article-header h5 {
+  margin-top: 2%;
+  font-size: 1.2em;
+}
+
+.article-header h5 span {
+  text-decoration: none;
+  font-weight: lighter;
+  font-style: oblique;
+}
+
+.img-box {
+  width: 70px;
+  height: 70px;
+  margin-right: 2%;
+  border: 4px solid #333;
+  border-radius: 5px;
+}
+
+.article-body {
+  width: 100%;
+  margin-bottom: 20%;
+  margin-left: 10%;
+  margin-top: -5%;
+}
+
+.article-body p {
+  width: 80%;
+  font-size: 3em;
+  line-height: 50px;
+  text-transform: capitalize;
+}
+
+.article-body a {
+  text-decoration: none;
+  color: white;
+}
+
+.article-body p span {
+  font-size: 0.4em;
+}
+
+.article-body p span a {
+  text-decoration: none;
+  color: white;
+}
+
+.article-footer {
+  margin-left: 10%;
+  margin-bottom: 5%;
+}
+
+.article-footer a {
+  color: white;
+}
+
+.article-footer i {
+  font-size: 2em;
+}
