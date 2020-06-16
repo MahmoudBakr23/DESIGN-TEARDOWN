@@ -64,7 +64,8 @@ nav ul li a {
   text-decoration: underline;
 }
 
-.author, .author a {
+.author,
+.author a {
   font-size: 24px;
   color: #555;
   font-weight: 700;
@@ -82,16 +83,12 @@ nav ul li a {
 
 .second-class li a {
   color: white;
-  }
+}
 
 footer .first-list li a {
   font-size: 1.5rem;
   text-decoration: underline;
   color: white;
-}
-
-.article-1 a:hover {
-  color: red;
 }
 
 .article-body p span a {
@@ -102,6 +99,10 @@ footer .first-list li a {
 nav ul li a:hover {
   background-color: #777;
   border-radius: 10px;
+}
+
+.article-1 a:hover {
+  color: red;
 }
 
 nav ul li button {
@@ -135,6 +136,49 @@ nav ul li button {
   line-height: 50px;
 }
 
+.grid-5 h1 {
+  font-size: 1.7em;
+  margin-left: 15%;
+  margin-top: -8%;
+  width: 100%;
+}
+
+.container-article-2 a h1 {
+  color: white;
+  font-size: 3em;
+  text-decoration: underline;
+  width: 60%;
+  margin: 2% 5%;
+  line-height: 50px;
+}
+
+.grid-6 h5 {
+  word-spacing: 5px;
+  font-size: 1.1em;
+  font-family: "Times New Roman", Times, serif;
+  color: #777;
+}
+
+footer p {
+  text-align: center;
+  color: white;
+  font-size: 22px;
+  line-height: 35px;
+}
+
+.grid-6 p {
+  color: #777;
+  font-size: 1.1em;
+}
+
+.grid-6 article,
+.grid-6 article h5,
+.grid-6 article h1,
+.grid-6 article p,
+.grid-6 article button {
+  margin: 5% 5%;
+}
+
 .grid-5 h1:hover {
   color: red;
   cursor: pointer;
@@ -150,27 +194,18 @@ nav ul li button {
   font-weight: bold;
 }
 
-.container-article button:hover {
-  cursor: pointer;
-  color: red;
-}
-
 .container-article-2 button:hover {
   color: red;
   cursor: pointer;
 }
 
-.container-article-2 a h1 {
-  color: white;
-  font-size: 3em;
-  text-decoration: underline;
-  width: 60%;
-  margin: 2% 5%;
-  line-height: 50px;
-}
-
 nav ul li button:hover {
   background-color: #666;
+}
+
+.container-article button:hover {
+  cursor: pointer;
+  color: red;
 }
 
 nav input {
@@ -355,13 +390,6 @@ nav input::placeholder {
   padding: 0;
 }
 
-.grid-5 h1 {
-  font-size: 1.7em;
-  margin-left: 15%;
-  margin-top: -8%;
-  width: 100%;
-}
-
 .container-article a h1 {
   color: white;
   font-size: 3em;
@@ -503,33 +531,6 @@ nav input::placeholder {
   border-radius: 10px;
 }
 
-.grid-6 article,
-.grid-6 article h5,
-.grid-6 article h1,
-.grid-6 article p,
-.grid-6 article button {
-  margin: 5% 5%;
-}
-
-.grid-6 h5 {
-  word-spacing: 5px;
-  font-size: 1.1em;
-  font-family: "Times New Roman", Times, serif;
-  color: #777;
-}
-
-footer p {
-  text-align: center;
-  color: white;
-  font-size: 22px;
-  line-height: 35px;
-}
-
-.grid-6 p {
-  color: #777;
-  font-size: 1.1em;
-}
-
 .js {
   color: #19a972;
 }
@@ -617,6 +618,12 @@ footer .first-list {
   flex-wrap: wrap;
 }
 
+.second-class li {
+  padding: 20px 0;
+  list-style: none;
+  margin: 20px auto;
+}
+
 footer .first-list li {
   line-height: 40px;
   margin: 0 15px;
@@ -624,11 +631,4 @@ footer .first-list li {
 
 .second-class {
   display: flex;
-
-}
-
-.second-class li {
-  padding: 20px 0;
-  list-style: none;
-  margin: 20px auto;
 }
