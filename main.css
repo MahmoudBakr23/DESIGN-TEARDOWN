@@ -47,6 +47,58 @@ nav ul li a {
   padding: 10px;
 }
 
+.article-body a {
+  text-decoration: none;
+  color: white;
+}
+
+.article-footer a {
+  color: white;
+}
+
+.article-1 a {
+  font-size: 2.5rem;
+  font-weight: 700;
+  line-height: 40px;
+  color: black;
+  text-decoration: underline;
+}
+
+.author, .author a {
+  font-size: 24px;
+  color: #555;
+  font-weight: 700;
+}
+
+.article-header-2 h5 a {
+  text-decoration: underline;
+  color: #555;
+}
+
+.grid-5 p a {
+  color: rgb(44, 135, 165);
+  text-decoration: underline;
+}
+
+.second-class li a {
+  color: white;
+  }
+
+footer .first-list li a {
+  font-size: 1.5rem;
+  text-decoration: underline;
+  color: white;
+}
+
+.article-1 a:hover {
+  color: red;
+}
+
+.article-body p span a {
+  text-decoration: none;
+  color: white;
+}
+
 nav ul li a:hover {
   background-color: #777;
   border-radius: 10px;
@@ -63,6 +115,58 @@ nav ul li button {
   font-size: 1.1em;
   font-weight: bold;
   font-family: "Baloo Paaji 2", cursive;
+}
+
+.container-article button {
+  color: rgb(44, 135, 165);
+  background-color: white;
+  border: 0;
+  border-radius: 10px;
+  margin-top: 5%;
+  padding: 25px 50px;
+  font-size: 1.5em;
+  font-weight: bold;
+}
+
+.grid-6 h1 {
+  font-size: 3em;
+  text-decoration: underline;
+  cursor: pointer;
+  line-height: 50px;
+}
+
+.grid-5 h1:hover {
+  color: red;
+  cursor: pointer;
+}
+
+.grid-6 button {
+  color: white;
+  border: 0;
+  border-radius: 10px;
+  margin-top: 5%;
+  padding: 20px 50px;
+  font-size: 1.5em;
+  font-weight: bold;
+}
+
+.container-article button:hover {
+  cursor: pointer;
+  color: red;
+}
+
+.container-article-2 button:hover {
+  color: red;
+  cursor: pointer;
+}
+
+.container-article-2 a h1 {
+  color: white;
+  font-size: 3em;
+  text-decoration: underline;
+  width: 60%;
+  margin: 2% 5%;
+  line-height: 50px;
 }
 
 nav ul li button:hover {
@@ -96,6 +200,26 @@ nav input::placeholder {
 .absolute h4 {
   font-size: 2.5em;
   line-height: 55px;
+}
+
+.article-1 h6 {
+  margin: 0;
+}
+
+.article-1 h6 span {
+  font-variant: small-caps;
+  font-weight: 400;
+  font-size: 2em;
+}
+
+.article-header h5 span {
+  text-decoration: none;
+  font-weight: lighter;
+  font-style: oblique;
+}
+
+.article-body p span {
+  font-size: 0.4em;
 }
 
 .absolute h4 span {
@@ -142,12 +266,6 @@ nav input::placeholder {
   font-size: 1.2em;
 }
 
-.article-header h5 span {
-  text-decoration: none;
-  font-weight: lighter;
-  font-style: oblique;
-}
-
 .img-box {
   width: 70px;
   height: 70px;
@@ -171,27 +289,9 @@ nav input::placeholder {
   margin-right: 0;
 }
 
-.article-body a {
-  text-decoration: none;
-  color: white;
-}
-
-.article-body p span {
-  font-size: 0.4em;
-}
-
-.article-body p span a {
-  text-decoration: none;
-  color: white;
-}
-
 .article-footer {
   margin-left: 10%;
   margin-bottom: 5%;
-}
-
-.article-footer a {
-  color: white;
 }
 
 .article-footer i {
@@ -215,34 +315,10 @@ nav input::placeholder {
   padding: 10%;
 }
 
-.article-1 a {
-  font-size: 2.5rem;
-  font-weight: 700;
-  line-height: 40px;
-  color: black;
-  text-decoration: underline;
-}
-
-.article-1 span {
-  font-variant: small-caps;
-  font-weight: 400;
-}
-
-.author,
-.author a {
-  font-size: 24px;
-  color: #555;
-  font-weight: 700;
-}
-
 .article-paragraph {
   font-size: 24px;
   font-family: Georgia, "Times New Roman", Times, serif;
   line-height: 43px;
-}
-
-.article-1 a:hover {
-  color: red;
 }
 
 .grid-3 {
@@ -279,6 +355,13 @@ nav input::placeholder {
   padding: 0;
 }
 
+.grid-5 h1 {
+  font-size: 1.7em;
+  margin-left: 15%;
+  margin-top: -8%;
+  width: 100%;
+}
+
 .container-article a h1 {
   color: white;
   font-size: 3em;
@@ -294,24 +377,8 @@ nav input::placeholder {
   margin: -2% auto 0 auto;
 }
 
-.container-article button {
-  color: rgb(44, 135, 165);
-  background-color: white;
-  border: 0;
-  border-radius: 10px;
-  margin-top: 5%;
-  padding: 25px 50px;
-  font-size: 1.5em;
-  font-weight: bold;
-}
-
 .container-article button i {
   font-size: 0.8em;
-}
-
-.container-article button:hover {
-  cursor: pointer;
-  color: red;
 }
 
 .grid-4 {
@@ -357,28 +424,11 @@ nav input::placeholder {
   margin-top: -1%;
 }
 
-.article-header-2 h5 a {
-  text-decoration: underline;
-  color: #555;
-}
-
 .article-header-2 h5 span {
   text-decoration: none;
   font-weight: lighter;
   font-style: oblique;
   color: #555;
-}
-
-.grid-5 h1 {
-  font-size: 1.7em;
-  margin-left: 15%;
-  margin-top: -8%;
-  width: 100%;
-}
-
-.grid-5 h1:hover {
-  color: red;
-  cursor: pointer;
 }
 
 .grid-5 p {
@@ -390,11 +440,6 @@ nav input::placeholder {
 .grid-5 p span {
   font-weight: lighter;
   color: #777;
-}
-
-.grid-5 p a {
-  color: rgb(44, 135, 165);
-  text-decoration: underline;
 }
 
 .container-2 {
@@ -416,15 +461,6 @@ nav input::placeholder {
   padding: 0;
 }
 
-.container-article-2 a h1 {
-  color: white;
-  font-size: 3em;
-  text-decoration: underline;
-  width: 60%;
-  margin: 2% 5%;
-  line-height: 50px;
-}
-
 .container-article-2 p {
   font-size: 1.2em;
   width: 80%;
@@ -442,11 +478,6 @@ nav input::placeholder {
   font-size: 1.5em;
   font-weight: bold;
   margin: 0 0 5% 5%;
-}
-
-.container-article-2 button:hover {
-  color: red;
-  cursor: pointer;
 }
 
 .box-img-lg {
@@ -472,10 +503,7 @@ nav input::placeholder {
   border-radius: 10px;
 }
 
-.grid-6 article h5,
-h1,
-p,
-button {
+.grid-6 article h5, h1, p, button {
   margin: 5% 5%;
 }
 
@@ -486,26 +514,16 @@ button {
   color: #777;
 }
 
-.grid-6 h1 {
-  font-size: 3em;
-  text-decoration: underline;
-  cursor: pointer;
-  line-height: 50px;
+footer p {
+  text-align: center;
+  color: white;
+  font-size: 22px;
+  line-height: 35px;
 }
 
 .grid-6 p {
   color: #777;
   font-size: 1.1em;
-}
-
-.grid-6 button {
-  color: white;
-  border: 0;
-  border-radius: 10px;
-  margin-top: 5%;
-  padding: 20px 50px;
-  font-size: 1.5em;
-  font-weight: bold;
 }
 
 .js {
@@ -600,31 +618,13 @@ footer .first-list li {
   margin: 0 15px;
 }
 
-footer .first-list li a {
-  font-size: 1.5rem;
-  text-decoration: underline;
-  color: white;
-}
-
-footer p {
-  text-align: center;
-  color: white;
-  font-size: 22px;
-  line-height: 35px;
-}
-
 .second-class {
   display: flex;
 
 }
 
 .second-class li {
-padding: 20px 0;
-list-style: none;
-margin: 20px auto;
-
-}
-
-.second-class li a {
-color: white;
+  padding: 20px 0;
+  list-style: none;
+  margin: 20px auto;
 }
