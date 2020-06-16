@@ -503,7 +503,11 @@ nav input::placeholder {
   border-radius: 10px;
 }
 
-.grid-6 article h5, h1, p, button {
+.grid-6 article,
+.grid-6 article h5,
+.grid-6 article h1,
+.grid-6 article p,
+.grid-6 article button {
   margin: 5% 5%;
 }
 
