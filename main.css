@@ -52,11 +52,6 @@ nav ul li a {
   color: white;
 }
 
-.article-footer a,
-.second-class li a {
-  color: white;
-}
-
 .article-1 a {
   font-size: 2.5rem;
   font-weight: 700;
@@ -70,6 +65,11 @@ nav ul li a {
   font-size: 24px;
   color: #555;
   font-weight: 700;
+}
+
+.article-footer a,
+.second-class li a {
+  color: white;
 }
 
 .article-header-2 h5 a {
