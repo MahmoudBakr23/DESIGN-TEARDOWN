@@ -5,13 +5,13 @@
 body {
   margin: 0;
   padding: 0;
-  font-family: 'Baloo Paaji 2', cursive;
+  font-family: "Baloo Paaji 2", cursive;
 }
 
 nav {
   display: flex;
   justify-content: space-between;
-  font-family: 'Baloo Paaji 2', cursive;
+  font-family: "Baloo Paaji 2", cursive;
   background-color: rgb(88, 88, 88);
 }
 
@@ -54,15 +54,15 @@ nav ul li a:hover {
 
 nav ul li button {
   margin-top: -7px;
-  padding: 8px 30px;
+  padding: 8px 28px;
   border-radius: 10px;
   border: none;
   color: white;
   background-color: #333;
   cursor: pointer;
-  font-size: 1.2em;
+  font-size: 1.1em;
   font-weight: bold;
-  font-family: 'Baloo Paaji 2', cursive;
+  font-family: "Baloo Paaji 2", cursive;
 }
 
 nav ul li button:hover {
@@ -79,7 +79,7 @@ nav input {
 nav input::placeholder {
   font-size: 1.6em;
   color: #777;
-  font-family: 'Baloo Paaji 2', cursive;
+  font-family: "Baloo Paaji 2", cursive;
   font-weight: bold;
 }
 
@@ -89,7 +89,7 @@ nav input::placeholder {
   left: 33%;
   width: 35%;
   text-align: center;
-  font-family: 'Baloo Paaji 2', cursive;
+  font-family: "Baloo Paaji 2", cursive;
   color: black;
 }
 
@@ -110,7 +110,7 @@ nav input::placeholder {
 }
 
 .grid article {
-  font-family: 'Baloo Paaji 2', cursive;
+  font-family: "Baloo Paaji 2", cursive;
   font-weight: bold;
   color: white;
 }
@@ -130,7 +130,6 @@ nav input::placeholder {
 .fourth-article {
   background-color: #777;
 }
-
 
 .article-header {
   display: flex;
@@ -229,7 +228,8 @@ nav input::placeholder {
   font-weight: 400;
 }
 
-.author, .author a {
+.author,
+.author a {
   font-size: 24px;
   color: #555;
   font-weight: 700;
@@ -237,7 +237,7 @@ nav input::placeholder {
 
 .article-paragraph {
   font-size: 24px;
-  font-family: Georgia, 'Times New Roman', Times, serif;
+  font-family: Georgia, "Times New Roman", Times, serif;
   line-height: 43px;
 }
 
@@ -307,7 +307,6 @@ nav input::placeholder {
 
 .container-article button i {
   font-size: 0.8em;
-
 }
 
 .container-article button:hover {
@@ -431,7 +430,7 @@ nav input::placeholder {
   width: 80%;
   margin: 2% 5%;
   line-height: 40px;
-  font-family: 'Times New Roman', Times, serif;
+  font-family: "Times New Roman", Times, serif;
 }
 
 .container-article-2 button {
@@ -473,14 +472,17 @@ nav input::placeholder {
   border-radius: 10px;
 }
 
-.grid-6 article h5, h1, p, button {
+.grid-6 article h5,
+h1,
+p,
+button {
   margin: 5% 5%;
 }
 
 .grid-6 h5 {
   word-spacing: 5px;
   font-size: 1.1em;
-  font-family: 'Times New Roman', Times, serif;
+  font-family: "Times New Roman", Times, serif;
   color: #777;
 }
 
@@ -560,7 +562,7 @@ nav input::placeholder {
   font-size: 1.8em;
   color: #777;
   font-style: oblique;
-  font-family: 'Times New Roman', Times, serif;
+  font-family: "Times New Roman", Times, serif;
 }
 
 .article-end {
@@ -570,9 +572,60 @@ nav input::placeholder {
   margin: 5% auto;
   border-radius: 10px;
   color: white;
-  font-family: 'Times New Roman', Times, serif;
+  font-family: "Times New Roman", Times, serif;
   padding: 15px 5px;
   font-size: 1.1em;
 }
 
+footer {
+  background-color: #d33a2c;
+  font-family: "Times New Roman", Times, serif;
+}
 
+footer h3 {
+  padding: 3% 0;
+  text-align: center;
+  color: white;
+  font-size: 22px;
+}
+
+footer .first-list {
+  display: flex;
+  margin: 5% auto;
+  flex-wrap: wrap;
+}
+
+footer .first-list li {
+  line-height: 40px;
+  list-style: none;
+}
+
+footer .first-list li a {
+  font-size: 1.5rem;
+  text-decoration: underline;
+  color: white;
+  padding: 15px;
+}
+
+footer p {
+  text-align: center;
+  color: white;
+  font-size: 22px;
+  line-height: 35px;
+}
+
+.second-class {
+  display: flex;
+
+}
+
+.second-class li {
+padding: 20px 0;
+list-style: none;
+margin: 20px auto;
+
+}
+
+.second-class li a {
+color: white;
+}
