@@ -171,19 +171,6 @@ footer p {
   font-size: 1.1em;
 }
 
-.grid-6 article,
-.grid-6 article h5,
-.grid-6 article h1,
-.grid-6 article p,
-.grid-6 article button {
-  margin: 5% 5%;
-}
-
-.grid-5 h1:hover {
-  color: red;
-  cursor: pointer;
-}
-
 .grid-6 button {
   color: white;
   border: 0;
@@ -194,13 +181,92 @@ footer p {
   font-weight: bold;
 }
 
-.container-article-2 button:hover {
+.article-header h5 span {
+  text-decoration: none;
+  font-weight: lighter;
+  font-style: oblique;
+}
+
+.article-body p span {
+  font-size: 0.4em;
+}
+
+.container-article h5 {
+  font-size: 1.2em;
+  margin: 0;
+  padding: 0;
+}
+
+.container-article p {
+  font-size: 1.8em;
+  width: 70%;
+  margin: -2% auto 0 auto;
+}
+
+.grid-4 p {
+  font-size: 1.2em;
+  margin-top: 0;
+  margin-left: -10%;
+  max-width: 100%;
+}
+
+.article-header-2 h5 {
+  font-size: 1.5em;
+  margin-top: -1%;
+}
+
+.grid-5 p {
+  width: 90%;
+  font-size: 1.3em;
+  line-height: 30px;
+}
+
+.container-article-2 h5 {
+  font-size: 1.2em;
+  margin: 0 5%;
+  padding: 0;
+}
+
+.container-article-2 button {
+  color: rgb(44, 135, 165);
+  background-color: white;
+  border: 0;
+  border-radius: 10px;
+  padding: 20px 35px;
+  font-size: 1.5em;
+  font-weight: bold;
+  margin: 0 0 5% 5%;
+}
+
+.grid-6 article,
+.grid-6 article h5,
+.grid-6 article h1,
+.grid-6 article p,
+.grid-6 article button {
+  margin: 5% 5%;
+}
+
+.container-article a h1 {
+  color: white;
+  font-size: 3em;
+  text-decoration: underline;
+  width: 60%;
+  margin: 5% auto;
+  line-height: 50px;
+}
+
+.grid-5 h1:hover {
   color: red;
   cursor: pointer;
 }
 
 nav ul li button:hover {
   background-color: #666;
+}
+
+.container-article-2 button:hover {
+  color: red;
+  cursor: pointer;
 }
 
 .container-article button:hover {
@@ -245,16 +311,6 @@ nav input::placeholder {
   font-variant: small-caps;
   font-weight: 400;
   font-size: 2em;
-}
-
-.article-header h5 span {
-  text-decoration: none;
-  font-weight: lighter;
-  font-style: oblique;
-}
-
-.article-body p span {
-  font-size: 0.4em;
 }
 
 .absolute h4 span {
@@ -384,27 +440,6 @@ nav input::placeholder {
   color: white;
 }
 
-.container-article h5 {
-  font-size: 1.2em;
-  margin: 0;
-  padding: 0;
-}
-
-.container-article a h1 {
-  color: white;
-  font-size: 3em;
-  text-decoration: underline;
-  width: 60%;
-  margin: 5% auto;
-  line-height: 50px;
-}
-
-.container-article p {
-  font-size: 1.8em;
-  width: 70%;
-  margin: -2% auto 0 auto;
-}
-
 .container-article button i {
   font-size: 0.8em;
 }
@@ -421,13 +456,6 @@ nav input::placeholder {
   border: 4px solid #333;
   border-radius: 10px;
   margin-left: 10%;
-}
-
-.grid-4 p {
-  font-size: 1.2em;
-  margin-top: 0;
-  margin-left: -10%;
-  max-width: 100%;
 }
 
 .grid-4 p span {
@@ -447,22 +475,11 @@ nav input::placeholder {
   display: flex;
 }
 
-.article-header-2 h5 {
-  font-size: 1.5em;
-  margin-top: -1%;
-}
-
 .article-header-2 h5 span {
   text-decoration: none;
   font-weight: lighter;
   font-style: oblique;
   color: #555;
-}
-
-.grid-5 p {
-  width: 90%;
-  font-size: 1.3em;
-  line-height: 30px;
 }
 
 .grid-5 p span {
@@ -483,29 +500,12 @@ nav input::placeholder {
   color: white;
 }
 
-.container-article-2 h5 {
-  font-size: 1.2em;
-  margin: 0 5%;
-  padding: 0;
-}
-
 .container-article-2 p {
   font-size: 1.2em;
   width: 80%;
   margin: 2% 5%;
   line-height: 40px;
   font-family: "Times New Roman", Times, serif;
-}
-
-.container-article-2 button {
-  color: rgb(44, 135, 165);
-  background-color: white;
-  border: 0;
-  border-radius: 10px;
-  padding: 20px 35px;
-  font-size: 1.5em;
-  font-weight: bold;
-  margin: 0 0 5% 5%;
 }
 
 .box-img-lg {
